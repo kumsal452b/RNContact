@@ -23,10 +23,10 @@ const ContactDetail = () => {
 const HomeNavigator = () => {
     const HomeStack = createNativeStackNavigator();
     return (
-        <HomeStack>
+        <HomeStack.Navigator initialRouteName={'Contact'}>
             <HomeStack.Screen name="Contact" component={Contact} />
             <HomeStack.Screen name="ContactDetail" component={ContactDetail} />
-        </HomeStack>
+        </HomeStack.Navigator>
     )
 }
 export default HomeNavigator;

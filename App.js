@@ -18,15 +18,14 @@ import {
   View,
 } from 'react-native';
 
-
-import { NavigationContainer } from '@react-navigation/native';
 import AppNavContainer from './src/navigations';
 
 
 const App = () => {
   return (
     <SafeAreaView>
-      <AppNavContainer />
+      <Text style={{ marginTop: 200 }}>Deneme</Text>
+      {/* <AppNavContainer /> */}
     </SafeAreaView>
   );
 };
