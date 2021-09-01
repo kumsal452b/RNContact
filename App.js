@@ -1,11 +1,4 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow strict-local
- */
-
+import 'react-native-gesture-handler';
 import React from 'react';
 import {
   SafeAreaView,
@@ -16,18 +9,15 @@ import {
   useColorScheme,
   View,
 } from 'react-native';
-
 import AppNavContainer from './src/navigations';
 
 
 const App = () => {
   return (
     <SafeAreaView>
-      <Text style={{ marginTop: 200 }}>Deneme</Text>
-      {/* <AppNavContainer /> */}
+      <Text>Dsldksd</Text>
+      <AppNavContainer />
     </SafeAreaView>
   );
 };
-
-
 export default App;
